@@ -27,7 +27,7 @@
                 <a class="btn btn-ghost text-sm/4 text-[#006747] font-bold text-left"><img class="w-8 h-8" src="./assets/logo.png" alt="" srcset=""> Emergency</br>Hotline</a>
             </div>
             <div class="flex-none">
-                <ul class="menu menu-horizontal px-1 gap-1">
+                <ul class="menu menu-horizontal px-1 gap-1 flex-wrap sm:flex-nowrap">
                 <li><button id="heart-btn" class="btn h-7 rounded-4xl bg-[#41FF6B10] border-0 text-black font-bold">
                     <span class="counter">0</span>
                     <img class="w-4 h-4" src="./assets/heart.png" alt="" srcset="">
@@ -54,18 +54,23 @@
                 <div class="max-w-md flex flex-col justify-center items-center">
                     <img class="w-15 h-15 mb-4" src="./assets/logo-dark.png" alt="" srcset="">
                 <p class="mb-2 text-xl/5 font-bold">Emergency Service Directory</p>
-                <p class="mb-1 text-xs/5 font-normal text-nowrap">
-                    Government Emergency Services at Your Fingertip - A Project by  Government of the People's Republic of Bangladesh
+                <p class="mb-1 text-xs/5 font-normal text-nowrap sm:break-normal ">
+                    Government Emergency Services at Your Fingertip - <br class="md:hidden lg:hidden"> Project by  Government of the People's Republic of Bangladesh
                 </p>
                 </div>
             </div>
         </div>
     </section>
+<!-- bg-[#f5fff6] w-full min-h-[100%] py-4 pr-[30px] pl-[54px] md:py-12 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-6 -->
 
+    <div class="flex flex-col lg:flex-row bg-green-50">
 
-    <div class="flex bg-green-50">
-        <section id="card-section" class="bg-[#f5fff6] w-full min-h-[100%] py-4 pr-[30px] pl-[54px] md:py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
-            <div class="card bg-white rounded-lg p-8   shadow-md max-w-sm">
+        <section id="card-section" class="bg-[#f5fff6] w-full min-h-[100%] 
+                    py-4 px-4 
+                    md:py-12 md:pr-[30px] md:pl-[54px]
+                    grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
+            <div class="card max-sm:ml-4 bg-white rounded-lg p-8 shadow-md max-w-sm w-full">
+
                 <div class="flex justify-between items-center mb-3">
                     <div class="p-3 bg-red-100 rounded-2xl flex items-center justify-center mr-3">
                         <img class="w-8 h-8" src="./assets/ambulance.png" alt="">
@@ -88,7 +93,7 @@
                     </button>
                 </div>
             </div>
-            <div class="card bg-white rounded-lg p-8  shadow-md max-w-sm">
+            <div class="card max-sm:ml-4 bg-white rounded-lg p-8  shadow-md max-w-sm">
                 <div class="flex justify-between items-center mb-3">
                     <div class="p-3 bg-blue-100 rounded-2xl flex items-center justify-center mr-3">
                         <img class="w-8 h-8" src="./assets//police.png" alt="">
@@ -111,7 +116,7 @@
                     </button>
                 </div>
             </div>
-            <div class="card bg-white rounded-lg p-8   shadow-md max-w-sm">
+            <div class="card max-sm:ml-4 bg-white rounded-lg p-8   shadow-md max-w-sm">
                 <div class="flex justify-between items-center mb-3">
                     <div class="p-3 bg-red-100 rounded-2xl flex items-center justify-center mr-3">
                         <img class="w-8 h-8" src="./assets/fire-service.png" alt="">
@@ -134,7 +139,7 @@
                     </button>
                 </div>
             </div>
-            <div class="card bg-white rounded-lg p-8   shadow-md max-w-sm">
+            <div class="card max-sm:ml-4 bg-white rounded-lg p-8   shadow-md max-w-sm">
                 <div class="flex justify-between items-center mb-3">
                     <div class="p-3 bg-red-100 rounded-2xl flex items-center justify-center mr-3">
                         <img class="w-8 h-8" src="./assets/ambulance.png" alt="">
@@ -157,7 +162,7 @@
                     </button>
                 </div>
             </div>
-            <div class="card bg-white rounded-lg p-8   shadow-md max-w-sm">
+            <div class="card max-sm:ml-4 bg-white rounded-lg p-8   shadow-md max-w-sm">
                 <div class="flex justify-between items-center mb-3">
                     <div class="p-3 bg-red-100 rounded-2xl flex items-center justify-center mr-3">
                         <img class="w-8 h-8" src="./assets/emergency.png" alt="">
@@ -180,7 +185,7 @@
                     </button>
                 </div>
             </div>
-            <div class="card bg-white rounded-lg p-8   shadow-md max-w-sm">
+            <div class="card max-sm:ml-4 bg-white rounded-lg p-8   shadow-md max-w-sm">
                 <div class="flex justify-between items-center mb-3">
                     <div class="p-3 bg-red-100 rounded-2xl flex items-center justify-center mr-3">
                         <img class="w-8 h-8" src="./assets/emergency.png" alt="">
@@ -203,7 +208,7 @@
                     </button>
                 </div>
             </div>
-            <div class="card bg-white rounded-lg p-8   shadow-md max-w-sm">
+            <div class="card max-sm:ml-4 bg-white rounded-lg p-8   shadow-md max-w-sm">
                 <div class="flex justify-between items-center mb-3">
                     <div class="p-3 bg-red-100 rounded-2xl flex items-center justify-center mr-3">
                         <img class="w-8 h-8" src="./assets/emergency.png" alt="">
@@ -226,7 +231,7 @@
                     </button>
                 </div>
             </div>
-            <div class="card bg-white rounded-lg p-8   shadow-md max-w-sm">
+            <div class="card max-sm:ml-4 bg-white rounded-lg p-8   shadow-md max-w-sm">
                 <div class="flex justify-between items-center mb-3">
                     <div class="p-3 bg-red-100 rounded-2xl flex items-center justify-center mr-3">
                         <img class="w-8 h-8" src="./assets/emergency.png" alt="">
@@ -249,7 +254,7 @@
                     </button>
                 </div>
             </div>
-            <div class="card bg-white rounded-lg p-8   shadow-md max-w-sm">
+            <div class="card max-sm:ml-4 bg-white rounded-lg p-8   shadow-md max-w-sm">
                 <div class="flex justify-between items-center mb-3">
                     <div class="p-3 bg-red-100 rounded-2xl flex items-center justify-center mr-3">
                         <img class="w-8 h-8" src="./assets/emergency.png" alt="">
@@ -274,9 +279,9 @@
             </div>
         
         </section>
-        <section class="mr-15 bg-green-50 mt-12">
+        <section class="mr-15 bg-green-50 mt-12 ">
             <div id="call-history"
-              class="rounded-2xl border-2 border-gray-100 bg-white w-full max-w-xs md:max-w-sm lg:max-w-md h-auto p-6 row-span-3 block">
+              class="rounded-2xl border-2 border-gray-100 bg-white w-full max-w-xs md:max-w-sm lg:max-w-md h-auto p-6 row-span-3 block max-sm:mx-4 max-sm:mb-4">
               <div class="flex justify-between gap-25 items-center">
                 <h2 class="font-bold whitespace-nowrap">
                 <i class="fa-regular fa-clock mr-2 inline"></i>
