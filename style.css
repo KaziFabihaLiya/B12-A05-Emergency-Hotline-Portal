@@ -1,5 +1,9 @@
-
 .font-hind {
         font-family: "Hind Madurai", sans-serif;
+        font-style: normal;
+}
+
+.font-inter {
+        font-family: "Inter", sans-serif;
         font-style: normal;
 }
